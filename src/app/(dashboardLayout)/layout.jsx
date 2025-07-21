@@ -1,11 +1,11 @@
+import Sidebar from "@/components/SideBar";
 import React from "react";
 
 const Dashboardlayout = ({ children }) => {
   return (
     <div>
-      <header>Navbar</header>
+      <Sidebar />
       {children}
-      <footer>Footer</footer>
     </div>
   );
 };
